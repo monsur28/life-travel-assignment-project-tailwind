@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>life Travel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/239d2571e3.js" crossorigin="anonymous"></script>
+    <style>
+        font-mulish {
+        font-family: "Mulish", sans-serif;
+        }
+    </style>
+</head>
+<body class="mx-2 lg:mx-36 pt-4">
+    <header>
+        <nav class="flex justify-between items-center">
+            <div class="flex justify-center items-center">
+                <img class="lg:w-12 w-5" src="./Images/Travel Logo.png" alt="">
+                <h1 class="lg:text-4xl text-xl font-extrabold font-mulish">Life <span class="text-amber-500">Travel</span></h1>
+            </div>
+            <i class="fa-solid fa-bars lg:invisible inline-flex justify-center items-center w-4 h-4 "></i>
+            <ul class="lg:flex hidden gap-11 text-lg font-normal">
+                <a class="text-orange-400 hover:bg-gray-400" href="#">Home</a>
+                <a class=" hover:bg-gray-200 rounded" href="#">Packages</a>
+                <a class=" hover:bg-gray-200 rounded" href="#">Testimonial</a>
+                <a class=" hover:bg-gray-200 rounded" href="#">Blog</a>
+                <a class=" hover:bg-gray-200 rounded" href="#">Contact</a>
+            </ul>
+        </nav>
+        <section>
+            <div class="relative lg:mt-12 mt-4 ">
+                <img class="lg:w-full w-full lg:h-full h-[530px] object-cover rounded-2xl" width="100%" src="./Images/Group 13 (1) (1).png" alt="">
+                <div class="absolute bg-gradient-to-t from-gray-700/30 to-gray-500/70 lg:w-full w-full lg:h-full h-[480px] rounded-2xl text-center -top-[0px] flex-wrap">
+                    <h2 class="lg:mt-24 mt-8 text-white lg:text-6xl text-2xl font-extrabold">Explore Your Travel</h2>
+                    <p class="text-white w-1/2 lg:ml-80 ml-24 lg:pt-10 lg:text-base text-sm">"Life Travel" invites you to "Collect moments, not things." Embrace the unknown with<br>  "Adventure awaits" and "Travel far, explore more.</p>
+                    <div class="lg:bg-white/35 rounded-lg p-6 lg:mt-12 mb-10 lg:inline-flex items-start lg:space-x-6">
+                        <input class="lg:w-44 w-64 h-14 rounded-lg p-4 lg:mb-1 mb-4" type="text" placeholder="Where go">
+                        <input class="lg:w-44 w-64 h-14 rounded-lg p-4 lg:mb-1 mb-4" type="text" placeholder="When">
+                        <select class="lg:w-44 w-64 h-14 rounded-lg p-4 lg:mb-1 mb-4" name="" id="">
+                            <option value="Select type">Select Type</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="Maldives">Maldives</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                        </select>
+                        <button class="bg-[#FF5400] text-white font-bold cursor-pointer lg:w-44 w-64 h-14 rounded-lg p-4]"><i class="fa-solid fa-magnifying-glass mr-2"></i>  Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+</html>
